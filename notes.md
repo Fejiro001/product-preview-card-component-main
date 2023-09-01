@@ -1,18 +1,14 @@
 ### Structure
-
-> body
-
-    >> div(role: card)--flex(desktop: row & mobile: column)
-
-        > - div(role: image-container)
-            > - img
-            
-        > - div(role: info)
-            > - h1
-            > - h2
-            > - p
-            > - h3 > span
-            > - button > icon > p
+- body
+    - div(role: card)--flex(desktop: row & mobile: column)
+        - div(role: image-container)
+            - img
+        - div(role: info)
+            - h1
+            - h2
+            - p
+            - h3 > span
+            - button > icon > p
 
 
 ### Things to note
