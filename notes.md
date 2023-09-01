@@ -1,9 +1,12 @@
 ### Structure
 
 > body
+
     >> div(role: card)--flex(desktop: row & mobile: column)
+
         > - div(role: image-container)
             > - img
+            
         > - div(role: info)
             > - h1
             > - h2
