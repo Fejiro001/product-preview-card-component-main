@@ -11,37 +11,97 @@ body {
     align-items: center;
     height: 100vh;
     overflow: hidden;
+    font-size: 14px;
 }
-
+/* Optimal card start*/
 .productCard {
     background-color: hsl(0, 0%, 100%);
     display: flex;
     flex-direction: row;
-    width: 50%;
-    height: 30rem;
+    width: 40rem;
+    min-height: 25rem;
     border-radius: .5rem;
-    margin: 1rem;
+    margin: 2rem;
 }
 
 .productImg {
     flex: 50%;
-    background-image: url(images/image-product-desktop.jpg);
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: url(images/image-product-desktop.jpg) center/cover no-repeat;
+    max-width: 100%;
+    border-radius: .5rem 0 0 .5rem;
 }
 
 .productInfo {
-    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 45%;
+    padding: 5%; /*Border-box=> 45%+5%=50%*/
+    word-wrap: break-word;
+}
+/* Optimal card end*/
+.pad {
+    padding-bottom: 1rem;
+    color: hsl(228, 12%, 48%);
 }
 
-@media (max-width: 800px) {
+.productInfo h1 {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .6rem;
+}
+
+.productInfo h2 {
+    font-size: 2rem;
+    color: hsl(212, 21%, 14%);
+}
+
+.productInfo p {
+    font-size: 1.2rem;
+    word-wrap: break-word;
+}
+
+.discountPrice {
+    font-size: 2rem;
+    color: hsl(158, 36%, 37%);
+    word-spacing: 1rem;
+}
+
+.discountPrice span {
+    font-size: 1rem;
+    text-decoration: line-through;
+    vertical-align: middle;
+    color: hsl(228, 12%, 48%);
+}
+
+button {
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    /* width: 100%; */
+    color: hsl(0, 0%, 100%);
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+button::before {
+    content: url(images/icon-cart.svg);
+    margin-right: 10px;
+}
+
+
+
+@media (max-width: 600px) {
     .productCard {
         flex-direction: column;
+        min-height: 80%;
+        width: 80%;
+        margin: 20px;
     }
     .productImg {
         background-image: url(images/image-product-mobile.jpg);
-        height: 100%;
+        border-radius: .5rem .5rem 0 0;
+        height: 100px;
+        width: 100%;
     }
 }
