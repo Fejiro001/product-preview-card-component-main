@@ -15,8 +15,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -29,8 +27,6 @@ Users should be able to:
 ### Screenshot
 
 ![Desktop Image](./images/product.png)
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
 ### Links
 
@@ -87,6 +83,5 @@ I need to practice more with image scaling on different devices
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
 - Frontend Mentor - [@Fejiro001](https://www.frontendmentor.io/profile/Fejiro001)
 - Twitter - [@aberefejiro](https://www.twitter.com/aberefejiro)
