@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop Image](./images/product.png)
+![Desktop Image](images/product.png)
 
 ### Links
 
