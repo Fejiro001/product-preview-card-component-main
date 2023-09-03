@@ -89,7 +89,9 @@ button::before {
     margin-right: 10px;
 }
 
-button:hover {
+button:hover,
+button:active
+{
     background-color: hsl(158, 36%, 29%);
     cursor: pointer;
 }
