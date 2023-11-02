@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://github.com/Fejiro001/product-preview-card-component-main)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/responsive-product-card-using-flexbox-T9tteD7p4o)
 - Live Site URL: [Live Site](https://fejiro001.github.io/product-preview-card-component-main/)
 
 ## My process
